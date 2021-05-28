@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:ital@1&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "mulish";
+}
+
+.formc,
+h1 {
+  text-align: center;
+}
+.img {
+  border-style: groove;
+}
+.contain {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 230px 230px;
+  align-items: baseline;
+  margin-left: 150px;
+}
+.align,
+tt {
+  text-align: center;
+}
+.input {
+  margin: 10px;
+  max-width: 200px;
+  height: 20px;
+}
+.sub_button {
+  background-color: rgb(132, 132, 218);
+  color: white;
+}
+.sub_button:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
+.container {
+  height: 100px;
+  background-color: darkcyan;
+}
+.maincontainer {
+  overflow: hidden;
+}
+.img:hover {
+  cursor: pointer;
+}
+.font {
+  color: white;
+  text-align: center;
+  size: 5px;
+}
+.font:hover {
+  color: darkturquoise;
+  border-bottom: 1px solid black;
+}
+.logo {
+  width: 180px;
+  height: 100px;
+  border: 1px;
+  float: left;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+.logoimg {
+  width: 140px;
+  height: 100px;
+  margin: 5px 0px 0px 70px;
+}
+
+.re_img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hlabel {
+  margin-left: 6px;
+}
